@@ -36,7 +36,6 @@ int main (void)
 			roll1 = 10;
 			ptrPins++;
 			roll2 = *ptrPins + *(ptrPins + 1);
-			totalScore += roll1 + roll2;
 		}
 		else if (*(ptrPins) + *(ptrPins + 1) == 10)
 		{	
@@ -44,7 +43,6 @@ int main (void)
 			roll1 = 10;
 			ptrPins += 2;
 			roll2 = *ptrPins;
-			totalScore += roll1 + roll2;	
 		}
 		else
 		{	
@@ -53,8 +51,8 @@ int main (void)
 			ptrPins++;
 			roll2 = *ptrPins;
 			ptrPins++;
-			totalScore += roll1 + roll2;
 		}//end of if block
+		totalScore += roll1 + roll2;
 		print_score(state,frameNumber,totalScore);
 		frameNumber++;
 	}

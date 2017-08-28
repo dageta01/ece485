@@ -30,8 +30,6 @@ int main (void) {
 	{
 		print_failure(ptrPhone);
 	}
-	
-	SER_Init();
     	
     return 0;
   }

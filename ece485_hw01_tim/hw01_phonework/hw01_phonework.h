@@ -105,7 +105,7 @@ void print_number_words(uint8_t *ptrNumber, uint8_t numberOfWords)
 				stepNumber[j - 1] += 1;
 			}
 			else if(stepNumber[0] > 2)
-			{
+	print 		{
 				break;
 			}
 			print_as_letter(ptrNumber, j, (int) stepNumber[j]);
