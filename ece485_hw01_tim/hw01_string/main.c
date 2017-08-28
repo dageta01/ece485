@@ -15,7 +15,7 @@ simply call Serial Port functions
 int main (void) 
 
 {
-	char string[] ="Test,string1,Test,string2:Test:string3";
+	char string[] ="Test,string1,Test,string2:Test,string3";
 	char *p;
 	SER_Init();
 	
@@ -32,6 +32,5 @@ int main (void)
 		printf("%s\n",p);
 		p = hw_strtok(NULL, ",:");
 	}
-	printf("%s\n",p);
 	return 0;
 }

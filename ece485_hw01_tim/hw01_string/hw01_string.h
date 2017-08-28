@@ -67,7 +67,7 @@ uint8_t hw_strspn(const char *text, const char *delims)
 		}
 		i++;
 	}
-	return '\0';
+	return i;
 }
 /************************************************************/
 uint8_t hw_strcspn(const char *text, const char *delims)
@@ -90,7 +90,7 @@ uint8_t hw_strcspn(const char *text, const char *delims)
 		}
 		i++;
 	}
-	return '\0';
+	return i;
 }
 /**************************************************************/
 #endif
