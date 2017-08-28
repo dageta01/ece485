@@ -66,6 +66,10 @@
 .#*
 *.uvgui.*
 *.uvopt
+*.uvopt#
+*.uvproj#
+*.uvgui
+*.uvgui#
 
 # Kernel Module Compile Results
 *.mod*
