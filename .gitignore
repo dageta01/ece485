@@ -42,6 +42,31 @@
 *.idb
 *.pdb
 
+#for uvision
+*.axf
+*.htm
+*.Inp
+*.map
+*.tra
+*.dep
+*.__i
+*.crf
+*.d
+*.o
+*.lst
+*.lnp
+*.bak
+*.Vishwas
+*.bin
+*.fed
+*._2i
+*.l1p
+*.l2p
+*.iex
+.#*
+*.uvgui.*
+*.uvopt
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
@@ -50,3 +75,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
